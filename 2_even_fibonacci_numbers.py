@@ -3,11 +3,8 @@ def sum_even_fibonacci(n_max):
     fib_n = 1
     sum = 0
 
-    while True:
+    while fib_n <= n_max:
         new_fib = fib_n_1 + fib_n
-
-        if new_fib >j n_max:
-            break
 
         fib_n_1 = fib_n
         fib_n = new_fib
